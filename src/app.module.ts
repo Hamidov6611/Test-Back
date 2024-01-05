@@ -22,7 +22,7 @@ import { BlogModule } from './blog/blog.module';
       }),
       inject: [ConfigService]
     }),
-    BlogModule
+    BlogModule,
   ],
   controllers: [AppController],
   providers: [AppService],
